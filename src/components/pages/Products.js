@@ -9,7 +9,6 @@ function Products() {
   return (
     <>
       <HeroSection />
-      <Cards />
       <Footer />
     </>
   );
