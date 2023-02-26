@@ -1,0 +1,42 @@
+.hightligh {
+  background-color: #f0f0f0;
+  padding: 5px;
+  border-radius: 5px;
+  margin: 5px;
+  font-size: 22px;
+  font-family: monospace;
+  color: #000;
+}
+.bg {
+  background-color: #002844;
+  color: #f0f0f0;
+  font-family: "Pt Sans", sans-serif;
+  padding: 12px;
+  box-sizing: border-box;
+}
+
+.image {
+  width: 60%;
+  height: auto;
+  margin: 12px auto;
+  display: block;
+}
+h1 {
+  margin: 12px;
+}
+h2 {
+  text-align: center;
+  margin: 12px;
+  font-size: 30px;
+}
+p {
+  padding: 6px 0px;
+}
+.f20 {
+  font-size: 20px;
+  margin: 0px 40px;
+}
+h3 {
+  font-size: 22px;
+  margin: 12px;
+}
