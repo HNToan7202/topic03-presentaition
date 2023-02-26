@@ -1,11 +1,12 @@
-import React from 'react';
-import Navbar from './components/Navbar';
-import './App.css';
-import Home from './components/pages/Home';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import Services from './components/pages/Services';
-import Products from './components/pages/Products';
-import SignUp from './components/pages/SignUp';
+import React from "react";
+import Navbar from "./components/Navbar";
+import "./App.css";
+import Home from "./components/pages/Home";
+import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
+import Products from "./components/pages/Products";
+import SignUp from "./components/pages/SignUp";
+import Version from "./components/pages/Version";
+import Resigter from "./components/pages/Resigter";
 
 function App() {
   return (
@@ -14,8 +15,8 @@ function App() {
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/version" element={<Services />} />
-          <Route path="/resigter" element={<Products />} />
+          <Route path="/version" element={<Version />} />
+          <Route path="/resigter" element={<Resigter />} />
           <Route path="/sign-up" element={<SignUp />} />
         </Routes>
       </Router>
